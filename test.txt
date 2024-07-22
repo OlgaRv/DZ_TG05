@@ -1,0 +1,45 @@
+https://www.alphavantage.co/physical_currency_list/
+https://www.alphavantage.co/digital_currency_list/
+
+https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency={BTC}&to_currency={EUR}&apikey={ALPHA_API_KEY}
+
+url_crypto = "https://www.sravni.ru/enciklopediya/info/spisok-kriptovaljut/"
+
+crypto_cyrrencys_top  ={
+    "Bitcoin" : "BTC",
+    "Ethereum" : "ETH",
+    "Litecoin" : "LTC",
+    "Monero" : "XMR",
+    "Dash" : "DASH",
+    "Zcash" : "ZEC",
+    "VertCoin" : "VTC",
+    "BitShares" : "BTS",
+    "Factom" : "FCT",
+    "Dogecoin" : "DOGE"
+    }
+list_d = ["BTC", "ETH", "LTC", "LTC", "XMR", "DASH", "ZEC", "VTC", "BTS", "FCT", ]
+
+physical_currencys_top = {
+    "Доллар США " : "USD",
+    "Евро " : "EUR",
+    "РоссийскийРубль " : "RUB",
+    "Китайский Юань " : "CNY",
+    "Турецкая лира " : "TRY",
+    "Швейцарский франк " : "CHF",
+    "Фунт стерлингов " : "GBP",
+    "Японская иена " : "JPY",
+    "Бразильский реал " : "BRL",
+    "Польский злотый " : "PLN",
+}
+list_p = ["USD", "EUR", "RUB", "CNY", TRY", "CHF", "GBP", "JPY", "BRL", "PLN"]
+
+Realtime Currency Exchange Rate = {
+'1. From_Currency Code': 'BTC',
+'2. From_Currency Name': 'Bitcoin',
+'3. To_Currency Code': 'EUR',
+'4. To_Currency Name': 'Euro',
+'5. Exchange Rate': '61952.29000000',
+'6. Last Refreshed': '2024-07-21 17:18:14',
+'7. Time Zone': 'UTC',
+'8. Bid Price': '61950.61100000',
+'9. Ask Price': '61953.04800000'}
